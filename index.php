@@ -5,6 +5,9 @@ include 'config/config.php'
 <head>
     <title>Biblioteca Virtual</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
 <meta charset="utf-8">
 <link rel="shortcut icon" href="https://colegiolaesperanza.com/plataforma/pluginfile.php/1/theme_moove/favicon/1643755324/favicon.ico">
 <style type="text/css"> BODY{font-family: Courier, "Lucida Console", monospace;} </style>
