@@ -14,54 +14,11 @@ include 'config/config.php'
 </head>
 <body>
 <div class="loader" id="loader"></div>
-<nav>
-      <ul>
-        <li>
-          <a href="http://localhost/Biblioteca_Virtual/index/index.php">Inicio</a>
-        </li>
-        <li>
-          <a href="http://localhost/Biblioteca_Virtual/index/index.php">Acerca de</a>
-        </li>
-        <li>
-          <a>Generos</a>
-          <ul>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Horror&enviar=Enviar">Horror</a>
-            </li>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Fantas%C3%ADa&enviar=Enviar">Fantasía</a>
-            </li>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Ciencia+Ficcion&enviar=Enviar">Ciencia Ficción</a>
-            </li>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Filosofia&enviar=Enviar">Filosofía y Psicología</a>
-            </li>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Religion&enviar=Enviar">Religion y Etica</a>
-            </li>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Educativo&enviar=Enviar">Educativo</a>
-            </li>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Aventura+y+Accion&enviar=Enviar">Aventura y Accion</a>
-            </li>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Ingles&enviar=Enviar">Ingles</a>
-            </li>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Biografías&enviar=Enviar">Biografías</a>
-            </li>
-            <li>
-            <a href="http://localhost/Biblioteca_Virtual/index/?busqueda=Tecnología+y+ciencia+aplicada&enviar=Enviar">Tecnología y ciencia aplicada</a>
-            </li>
-          </ul>
-    </nav>
     <form method="get" action="">
     <div>
   <div>
-  <input type="text" class="textbox"autocomplete="off" spellcheck="false" name="busqueda" placeholder="Ingrese el libro, Autor o Numero de catalogo" style="width:400px; height:50px" required>
-    <input class="button-68" type="submit"  name="enviar" value="Buscar "style="width:400px; height:50px">
+  <input type="text" class="textbox" autocomplete="off" spellcheck="false" name="busqueda" placeholder="Ingrese el libro, Autor, ID o Genero" style="width:400px; height:50px" required>
+    <input class="button-68" type="submit"  name="enviar" value="Buscar " style="width:400px; height:50px">
     <input class="button-68" type="reset" value="Limpiar" style="width:400px; height:50px"onclick="location.href = 'index.php'">
   </div>
 </div>
