@@ -310,15 +310,14 @@
   transform: scale(0.98);
   border-radius: 20px;
  }
- 
+ .button-68{
+  display:block;
+  margin:0.4em auto;
+  }
  .card:hover {
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
  }
  @media all and (max-width:30em){
-.button-68{
-display:block;
-margin:0.4em auto;
-}
  }
  /* Smartphones (horizontal y vertical) */
 @media only screen 
