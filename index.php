@@ -61,28 +61,24 @@ include 'config/config.php'
 
     </form>
     </p>
-</div>
+  </div>
+<br><br><br><br><br><br><br><br><br>
 
-<div class="Backgroundimg">
-<img src="img/virtual.png" alt="Imagen institucional">
-</div>
-<footer>
-    <hr>
-    <div class="borders">
-    <p>Este proyecto está siendo llevado a cabo por 2 estudiantes de la <b>Promoción 105</b>.</p>
-    <p>Si has encontrado alguna dificultad, problema o simplemente una recomendación que darnos, estamos siempre atentos a cualquier comentario.
-    </p>
-    <p>Puede contactar con el docente:</p>
-    <br>Adolfo Lopez Alvear</br>
-    <br>
-    <span class="sp-copyright">
-            © Copyright 2022. Implementado por ESTUDIANTES CDLE 
-            <a href="http://colegiolaesperanza.com" target="_blank">COLEGIO DE LA ESPERANZA
+    <div class="fullwidth-container">
 
-            </a></span>
-</div>
-    </footer>
-<br><br>     
+        <p>La Biblioteca del Colegio de la esperanza, es la responsable de administrar la información bibliográfica para la comunidad y servir de apoyo a los procesos de docencia, aprendizaje, colocando a disposición los contenidos de material bibliográfico y documental, para el desarrollo de las actividades escolares.
+        </p>
+          <p>
+          Se inaugura oficialmente en el 2022 con la presencia de la entonces <b>Promoción 105</b>, con el soporte del docente de lengua castellana, Adolfo López Alvear, y por los estudiantes Alejandro Pedro Steinman y Juanes Esteban Fox
+        </p>
+         <p>La Biblioteca albergan colecciones de libros, revistas, mapas, entre otros materiales.</p> 
+          
+        <br>
+        <span class="sp-copyright">
+                © Copyright 2022. Implementado por CDLE 
+                <a href="https://colegiolaesperanza.com/web3" target="_blank">COLEGIO DE LA ESPERANZA
+                </a></span>
+    </div>    
   <tbody>
   </tbody>
   <script>
