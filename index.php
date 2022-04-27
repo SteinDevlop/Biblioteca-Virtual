@@ -18,8 +18,8 @@ include 'config/config.php'
     <div>
   <div>
   <input type="text" class="textbox" autocomplete="off" spellcheck="false" name="busqueda" placeholder="Ingrese el libro, Autor, ID o Genero" style="width:400px; height:50px" required>
-    <input class="button-68" type="submit"  name="enviar" value="Buscar " style="width:400px; height:50px">
-    <input class="button-68" type="reset" value="Limpiar" style="width:400px; height:50px"onclick="location.href = 'index.php'">
+    <input class="button-68" type="submit"  name="enviar" value="Buscar " style="width:400px; height:50px; margin:10px"">
+    <input class="button-68" type="reset" value="Limpiar" style="width:400px; height:50px; margin:10px"onclick="location.href = 'index.php'">
   </div>
 </div>
 
@@ -62,6 +62,7 @@ include 'config/config.php'
     </form>
     </p>
   </div>
+  <img src="img/virtual.png">
 <br><br><br><br><br><br><br><br><br>
 
     <div class="fullwidth-container">
